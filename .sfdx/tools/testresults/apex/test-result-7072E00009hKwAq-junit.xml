@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2019-04-11T15:00:18-07:00" hostname="https://brave-moose-h5yu0q-dev-ed.my.salesforce.com" tests="1" failures="1"  errors="0"  time="0.09">
+        <properties>
+            <property name="outcome" value="Failed"/>
+            <property name="testsRan" value="1"/>
+            <property name="passing" value="0"/>
+            <property name="failing" value="1"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="0%"/>
+            <property name="failRate" value="100%"/>
+            <property name="testStartTime" value="Apr 11, 2019 3:00 PM"/>
+            <property name="testExecutionTime" value="0.09 s"/>
+            <property name="testTotalTime" value="0.09 s"/>
+            <property name="commandTime" value="5.8 s"/>
+            <property name="hostname" value="https://brave-moose-h5yu0q-dev-ed.my.salesforce.com"/>
+            <property name="orgId" value="00D2E000000nI4sUAE"/>
+            <property name="username" value="tyler.uhl@brave-moose-h5yu0q.com"/>
+            <property name="testRunId" value="7072E00009hKwAq"/>
+            <property name="userId" value="0052E00000HbL3FQAV"/>
+        </properties>
+        <testcase name="createAccount" classname="DedupeTest" time="0.09">
+            <failure message="System.DmlException: Insert failed. First exception on row 0; first error: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, Dedupe: execution of AfterInsert
+
+caused by: System.StringException: Invalid id: Dedupe this account
+
+Trigger.Dedupe: line 4, column 1: []"><![CDATA[Class.DedupeTest.createAccount: line 8, column 1]]></failure>
+        </testcase>
+    </testsuite>
+</testsuites>

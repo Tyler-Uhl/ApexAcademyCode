@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2019-04-12T15:01:38-07:00" hostname="https://brave-moose-h5yu0q-dev-ed.my.salesforce.com" tests="1" failures="1"  errors="0"  time="0.5">
+        <properties>
+            <property name="outcome" value="Failed"/>
+            <property name="testsRan" value="1"/>
+            <property name="passing" value="0"/>
+            <property name="failing" value="1"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="0%"/>
+            <property name="failRate" value="100%"/>
+            <property name="testStartTime" value="Apr 12, 2019 3:01 PM"/>
+            <property name="testExecutionTime" value="0.5 s"/>
+            <property name="testTotalTime" value="0.5 s"/>
+            <property name="commandTime" value="3.12 s"/>
+            <property name="hostname" value="https://brave-moose-h5yu0q-dev-ed.my.salesforce.com"/>
+            <property name="orgId" value="00D2E000000nI4sUAE"/>
+            <property name="username" value="tyler.uhl@brave-moose-h5yu0q.com"/>
+            <property name="testRunId" value="7072E00009hM0jR"/>
+            <property name="userId" value="0052E00000HbL3FQAV"/>
+        </properties>
+        <testcase name="createCaseWithSecretInfo" classname="CheckSecretInformationTest" time="0.5">
+            <failure message="System.DmlException: Insert failed. First exception on row 0; first error: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, CheckSecretInformation: execution of AfterInsert
+
+caused by: System.DmlException: Insert failed. First exception on row 0; first error: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, WarrantySummary: execution of BeforeInsert
+
+caused by: System.NullPointerException: Attempt to de-reference a null object
+
+Trigger.WarrantySummary: line 4, column 1: []
+
+Trigger.CheckSecretInformation: line 35, column 1: []"><![CDATA[Class.CheckSecretInformationTest.createCaseWithSecretInfo: line 12, column 1]]></failure>
+        </testcase>
+    </testsuite>
+</testsuites>

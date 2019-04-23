@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 1,
+        "passing": 1,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Apr 11, 2019 2:44 PM",
+        "testExecutionTime": "397 ms",
+        "testTotalTime": "397 ms",
+        "commandTime": "4070 ms",
+        "hostname": "https://brave-moose-h5yu0q-dev-ed.my.salesforce.com",
+        "orgId": "00D2E000000nI4sUAE",
+        "username": "tyler.uhl@brave-moose-h5yu0q.com",
+        "testRunId": "7072E00009hKvO3",
+        "userId": "0052E00000HbL3FQAV"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M2E000004QDzPUAW"
+            },
+            "Id": "07M2E000004QDzPUAW",
+            "QueueItemId": "7092E000000YmhRQAS",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7072E00009hKvO3QAK",
+            "MethodName": "updateLead",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p2E000002fp05QAA"
+                },
+                "Id": "01p2E000002fp05QAA",
+                "Name": "HelloWorldTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 397,
+            "FullName": "HelloWorldTest.updateLead"
+        }
+    ]
+}
